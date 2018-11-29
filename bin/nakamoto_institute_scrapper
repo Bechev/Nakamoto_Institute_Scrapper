@@ -1,0 +1,4 @@
+
+require_relative '../lib/nakamoto_institute_scrapper.rb'
+
+NakamotoInstituteScrapper::CLI.new.call
