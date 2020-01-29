@@ -4,7 +4,7 @@ class NakamotoInstituteScrapper::CLI
 
   def call
     make_a_search = true
-    puts "Welcome to Gemini"
+    puts "Welcome to Nakamoto Institute Scrapper"
     while make_a_search == true
       NakamotoInstituteScrapper::Scrapper.new
       menu_list_of_documents
